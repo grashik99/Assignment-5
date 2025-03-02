@@ -18,4 +18,4 @@ document.getElementById('discover').addEventListener('click', ()=>{
     console.log("clicked")
 })
 
-document.querySelectorAll
+const div = document.createElement('div')
