@@ -4,4 +4,18 @@ document.getElementById('theme-btn').addEventListener("click", ()=>{
     const presentBg = document.getElementById('body').classList[1];
     const unusedThemes = themes.filter(x => x !== document.getElementById('body').classList[1]);
     document.getElementById('body').classList.replace(presentBg, unusedThemes[Math.floor(Math.random() * unusedThemes.length)])
+});
+
+// date section
+const date = new Date();
+const spited = date.toString().split(" ");
+document.getElementById('today').innerText = spited[0];
+document.getElementById('year').innerText = `${spited[1]} ${spited[2]} ${spited[3]}`;
+
+// discover section
+document.getElementById('discover').addEventListener('click', ()=>{
+    window.location.href= '../question.html';
+    console.log("clicked")
 })
+
+document.querySelectorAll

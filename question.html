@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Questions</title>
+    <!-- Tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisyUi cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body class="bg-[#00308F] pt-4">
+    <header class=" max-w-7xl mx-auto">
+        <div class="navbar bg-base-100 rounded-xl p-4 shadow-xl">
+            <div class="flex-1">
+                <img class="w-12 h-12" src="./assets/logo.png" alt="logo">
+                <h1 class="text-3xl font-thin ml-1">Dev<span class="font-bold">Board</span></h1>
+            </div>
+            <div class="flex-none gap-5">
+                <a href="./index.html" class="btn bg-rose-500 text-white text-xl font-light hover:bg-blue-600">Back To Home</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="max-w-7xl mx-auto pl-8 rounded-xl p-2 m-2 text-white font-bold text-xl" style="background-image: linear-gradient(to right, #090979, #00d4ff)">
+            <label class="swap">
+                <input type="checkbox" />
+                <div class="swap-on">Question-1: What are the different ways to select an element in the DOM?</div>
+                <div class="swap-off">
+                    Answer-1: 1.getElementById, 2.getElementsByClassName, 3.getElementsByTagName, 4.querySelector, 5.querySelectorAll. 
+                </div>
+              </label>
+        </div>
+        <div class="max-w-7xl mx-auto pl-8 rounded-xl p-2 m-2 text-white font-bold text-xl" style="background-image: linear-gradient(to right, #090979, #00d4ff)">
+            <label class="swap">
+                <input type="checkbox" />
+                <div class="swap-on">Question-2: What is the difference between innerHTML, innerText, and textContent ?</div>
+                <div class="swap-off">
+                    <p>Answer-2:</p>
+                    <li>We can get set manipulate all the elements inside the element with innerHTML</li>
+                    <li>We can get set all text inside the element with innerText</li>
+                    <li>textContent like innerText but it can get the hidden texts also.</li>
+                </div>
+              </label>
+        </div>
+        <div class="max-w-7xl mx-auto pl-8 rounded-xl p-2 m-2 text-white font-bold text-xl" style="background-image: linear-gradient(to right, #090979, #00d4ff)">
+            <label class="swap">
+                <input type="checkbox" />
+                <div class="swap-on">Question-3: What is event delegation in the DOM?</div>
+                <div class="swap-off">
+                    Answer-3:
+                </div>
+              </label>
+        </div>
+    </section>
+</body>
+</html>
