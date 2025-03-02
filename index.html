@@ -29,7 +29,7 @@
             <div class="flex-none gap-5">
                 <button class="flex items-center gap-3 btn rounded-full">
                     <img class="w-7 h-7" src="./assets/checkbox.png" alt="checkbox">
-                    <h1 class="text-2xl">23</h1>
+                    <h1 id="completed-task" class="text-2xl">23</h1>
                 </button>
                 <button id="theme-btn" class="btn rounded-full px-1"><img src="./assets/theme-btn.png"
                         alt="theme-btn"></button>
@@ -47,7 +47,7 @@
                     </div>
                     <div>
                         <h2 class="text-lg">Task Assigned</h2>
-                        <p class="text-2xl font-bold">05</p>
+                        <p id="remaining-task" class="text-2xl font-bold">6</p>
                     </div>
                 </div>
                 <div id="discover" class="discover-card p-4 rounded-xl flex items-center gap-4"
@@ -74,7 +74,7 @@
                 <!-- card-1 start -->
                 <div id="card-1" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">ShopEase</h3>
-                    <h1 class="text-xl font-semibold mb-2">Fix Mobile Button Issue</h1>
+                    <h1 id="card-1-title" class="text-xl font-semibold mb-2">Fix Mobile Button Issue</h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Debug
                         using Chrome DevTools, check for overlapping elements, and ensure onClick works properly and
                         ensure onClick works properly</p>
@@ -83,14 +83,14 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">21 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button  id="card-1-btn" class="btn bg-blue-600 text-white rounded-lg disabled:visited:">Completed</button>
                     </div>
                 </div>
                 <!-- card-1 end -->
                 <!-- card-2 start -->
                 <div id="card-2" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">CloudSync</h3>
-                    <h1 class="text-xl font-semibold mb-2">Add Dark Mode</h1>
+                    <h1 id="card-2-title" class="text-xl font-semibold mb-2">Add Dark Mode</h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Store the
                         user's preference in localStorage, update CSS variables dynamically, and apply a smooth
                         transition effect.</p>
@@ -99,14 +99,14 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">20 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button id="card-2-btn" class="btn bg-blue-600 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
                 <!-- card-2 end -->
                 <!-- card-3 start -->
                 <div id="card-3" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">SwiftPay</h3>
-                    <h1 class="text-xl font-semibold mb-2">Optimize Home page </h1>
+                    <h1 id="card-3-title" class="text-xl font-semibold mb-2">Optimize Home page </h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Debug
                         using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
@@ -115,14 +115,14 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">21 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button id="card-3-btn" class="btn bg-blue-600 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
                 <!-- card-3 end -->
                 <!-- card-4 start -->
                 <div id="card-4" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">Meta</h3>
-                    <h1 class="text-xl font-semibold mb-2">Add new emoji 🤲</h1>
+                    <h1 id="card-4-title" class="text-xl font-semibold mb-2">Add new emoji 🤲</h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Debug
                         using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
@@ -131,14 +131,14 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">21 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button id="card-4-btn" class="btn bg-blue-600 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
                 <!-- card-4 end -->
                 <!-- card-5 start -->
                 <div id="card-5" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">Google LLC</h3>
-                    <h1 class="text-xl font-semibold mb-2">Integrate OpenAI API </h1>
+                    <h1  id="card-5-title" class="text-xl font-semibold mb-2">Integrate OpenAI API </h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Debug
                         using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
@@ -147,14 +147,14 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">21 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button id="card-5-btn" class="btn bg-blue-600 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
                 <!-- card-5 end -->
                 <!-- card-6 start -->
                 <div id="card-6" class="p-3 bg-slate-100 rounded-xl">
                     <h3 class="p-3 bg-white rounded-xl inline-block mb-2">Glassdoar</h3>
-                    <h1 class="text-xl font-semibold mb-2">Improve Job searching </h1>
+                    <h1  id="card-6-title" class="text-xl font-semibold mb-2">Improve Job searching </h1>
                     <p class="text-xs p-1 bg-white rounded-md mb-2 overflow-hidden text-ellipsis line-clamp-2">Debug
                         using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
                         and ensure onClick works properly</p>
@@ -163,7 +163,7 @@
                             <p class="font-light">Deadline</p>
                             <h3 class="font-medium">21 March 2025</h3>
                         </div>
-                        <button class="btn bg-blue-600 text-white rounded-lg">Completed</button>
+                        <button id="card-6-btn" class="btn bg-blue-600 text-white rounded-lg">Completed</button>
                     </div>
                 </div>
                 <!-- card-6 end -->
@@ -176,10 +176,10 @@
                     <img class="w-4 h-4" src="./assets/activity.png" alt="activity">
                     <p>Activity Log</p>
                 </div>
-                <button class="btn bg-blue-600 text-white">Clear History</button>
+                <button id="clear-history" class="btn bg-blue-600 text-white">Clear History</button>
             </div>
             <!-- history container start -->
-            <div class="history-container"></div>
+            <div id="history-container" class="history-container"></div>
             <!-- history container end -->
         </div>
     </main>
