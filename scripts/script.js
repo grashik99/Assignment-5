@@ -58,7 +58,6 @@ document.getElementById('card-2-btn').addEventListener("click", () => {
     historyContainer.appendChild(p);
     document.getElementById('card-2-btn').disabled = true;
     alert(title + ' ' + 'added successful')
-    console.log(spited);
     if (remainingTaskNumber === 1) {
         alert('All tasked completed successfully')
     }
