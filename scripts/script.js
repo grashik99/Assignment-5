@@ -14,7 +14,7 @@ document.getElementById('year').innerText = `${spited[1]} ${spited[2]} ${spited[
 
 // discover section
 document.getElementById('discover').addEventListener('click', ()=>{
-    window.location.href= '../question.html';
+    window.location.href= 'question.html';
     console.log("clicked")
 })
 
